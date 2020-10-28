@@ -1,0 +1,64 @@
+#morpion {
+    width: 75%;
+    height: 100%;
+    position: absolute;
+}
+
+#tableau_joueur {
+    width: 22%;
+    height: 50%;
+    position: absolute;
+    right: 1%;
+}
+
+/*--------------------------*/
+/*-- POSITIONNEMENT LIGNE --*/
+/*--------------------------*/
+
+.line {
+    position: absolute;
+}
+
+/*-- LIGNE VERTICAL --*/
+
+.vertical_line {
+    border-left:2px solid #38546d;
+    height:75%;
+}
+
+.vertical_line1 {
+    left:33%;
+}
+
+.vertical_line2 {
+    left:66%;
+}
+
+/*-- LIGNE HORIZONTAL --*/
+
+.horizontal_line {
+    border-bottom: 2px solid #38546d;
+    width: 100%;
+}
+
+.horizontal_line1 {
+    top: 25%;
+}
+
+.horizontal_line2 {
+    top: 50%;
+}
+
+/*--------------------------*/
+/*-- POSITIONNEMENT LIGNE --*/
+/*--------------------------*/
+
+.score {
+    width: 75%;
+    height: 50%;
+    border: 5px solid #38546d;
+    border-radius: 25px;
+    display: block;
+    margin: 25% auto 0% auto;
+    /*padding: 0% 10% 0% 10%;*/
+}
